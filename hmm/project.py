@@ -6,7 +6,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def extract_train_and_test_data(data):
-    return np.split(data.dropna().to_numpy(), 2)
+    df = data.dropna()
+    df.reset_index(drop=True, inplace=True)
+    even_rows = df.iloc[df.index % 2 == 0]
+    odd_rows = df.iloc[df.index % 2 != 0]
+    return odd_rows.dropna().to_numpy(), even_rows.dropna().to_numpy()
 
 def predict_position(train, test):
     # Train Hidden Markov Model
