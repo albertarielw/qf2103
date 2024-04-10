@@ -1,6 +1,16 @@
-# Code Directory
+# Directory
 
-## Data Preparation
+## Report
+
+Team 11 Report.pdf
+
+## Slide
+
+Team 11 Slides.pptx
+
+## Code
+
+### Data Preparation
 
 - Data Preparation/data.ipynb
 
@@ -10,7 +20,7 @@ This file contains code for preliminary data analysis and data collection
 
 This folder contains collected data
 
-## Trading Strategy 1 Stepwise Regression
+### Trading Strategy 1 Stepwise Regression
 
 - Trading Strategy 1 Stepwise Regression/Stepwise Regression (Final).ipynb
 
@@ -20,7 +30,7 @@ This file contains the code for stepwise regression
 
 This file contains the code for stepwise regression with Fixed SMA period
 
-## Trading Strategy 2 Support Vector Machine
+### Trading Strategy 2 Support Vector Machine
 
 - Trading Strategy 2 Support Vector Machine/optimization/optimization.ipynb
 
